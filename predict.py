@@ -5,7 +5,7 @@ recog=cv2.face.LBPHFaceRecognizer_create()
 
 recog.read("facemodel.yml")
 
-test_image=cv2.imread("./dataset/0/person-18.jpg",0)
+test_image=cv2.imread("./dataset/2/person-54.jpg",0)
 
 cv2.imshow("test image",test_image)
 cv2.waitKey()
